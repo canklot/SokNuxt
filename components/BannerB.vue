@@ -252,7 +252,5 @@ export default {};
   height: .1rem !important;
   background-color:#ffe000;
 }
-/* .alan-2 ~ .button {
-  background-color:blue;
-} */
+
 </style>
