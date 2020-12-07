@@ -14,6 +14,7 @@
   </div>
 </template>
 
+/*       bu component eksik     */
 <script>
 export default {
   name: "UrunDetay",

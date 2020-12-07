@@ -1,8 +1,10 @@
 <template>
   <div class="BunlariKacirma">
     <div class="Baslik">Bunları Kaçırmayın</div>
+    <!-- ----------urun----- -->
+    <nuxt-link :to="'/UrunDetay/'+id">
     <div class="urun">
-      <img class="urunResim" src="../images/lipton.jpg" />
+      <img class="urunResim" src="@/images/lipton.jpg" />
       <div class="indirim">25 TL üzeri indirimli</div>
       <div class="urunAdi">Lipton Altın Harman Demşik Poşet 100'lü</div>
       <div class="eskiFiyat">
@@ -11,9 +13,10 @@
       <div class="yeniFiyat">₺22,00</div>
       <div class="arti">+</div>
     </div>
+    </nuxt-link>
     <!-- ----------urun----- -->
     <div class="urun">
-      <img class="urunResim" src="../images/deterjan.jpg" />
+      <img class="urunResim" src="@/images/deterjan.jpg" />
       <div class="indirim">25 TL üzeri indirimli</div>
       <div class="urunAdi">Bingo Sıvı Deterjan 40 Yıkama 2,6Lt</div>
       <div class="eskiFiyat">
@@ -24,7 +27,7 @@
     </div>
     <!-- ----------urun----- -->
     <div class="urun">
-      <img class="urunResim" src="../images/vanish.jpg" />
+      <img class="urunResim" src="@/images/vanish.jpg" />
       <div class="indirim">25 TL üzeri indirimli</div>
       <div class="urunAdi">Vanish Oxi Action Gold Leke Çıkarıcı 1,4Lt</div>
       <div class="eskiFiyat">
@@ -35,7 +38,7 @@
     </div>
     <!-- ----------urun----- -->
     <div class="urun">
-      <img class="urunResim" src="../images/nivea.jpg" />
+      <img class="urunResim" src="@/images/nivea.jpg" />
       <div class="indirim">25 TL üzeri indirimli</div>
       <div class="urunAdi">Nivea Soft Bakım Kremi Nemlendirici 200Ml</div>
       <div class="eskiFiyat">
@@ -46,7 +49,7 @@
     </div>
     <!-- ----------urun----- -->
     <div class="urun">
-      <img class="urunResim" src="../images/deterjan.jpg" />
+      <img class="urunResim" src="@/images/deterjan.jpg" />
       <div class="indirim">25 TL üzeri indirimli</div>
       <div class="urunAdi">Bingo Sıvı Deterjan 40 Yıkama 2,6Lt</div>
       <div class="eskiFiyat">
@@ -57,7 +60,7 @@
     </div>
     <!-- ----------urun----- -->
     <div class="urun">
-      <img class="urunResim" src="../images/deterjan.jpg" />
+      <img class="urunResim" src="@/images/deterjan.jpg" />
       <div class="indirim">25 TL üzeri indirimli</div>
       <div class="urunAdi">Bingo Sıvı Deterjan 40 Yıkama 2,6Lt</div>
       <div class="eskiFiyat">
@@ -77,9 +80,13 @@ export default {};
 </script>
 
 /* -------------Styles--------------- */
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+a{
+  text-decoration: none;
+  color: black;
+}
 .BunlariKacirma {
   background-color: #f7f3eb;
 }

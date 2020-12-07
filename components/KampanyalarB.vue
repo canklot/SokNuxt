@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .kampanyalar{
   width:1200px;
   margin-left:150px;

@@ -1,12 +1,8 @@
 <template>
   <div>
     <div class="alan-2">
-      <v-btn class="buton2" depressed>
-        Kurumsal
-      </v-btn>
-      <v-btn class="buton2" depressed>
-        Yatırımcı İlişkileri
-      </v-btn>
+      <v-btn class="buton2" depressed>Kurumsal</v-btn>
+      <v-btn class="buton2" depressed>Yatırımcı İlişkileri</v-btn>
     </div>
     <div class="alan-1">
       <img class="logo" src="@/images/soklogo.svg" />
@@ -17,16 +13,31 @@
       </div>
       <div class="fix"></div>
       <div class="acilirmenu">
-        <div class="menuitem"><p class="menuitemmetin">Kategoriler</p></div>
-        <div class="menuitem"><p class="menuitemmetin">Kategoriler</p></div>
-        <div class="menuitem"><p class="menuitemmetin">Kategoriler</p></div>
-        <div class="menuitem"><p class="menuitemmetin">Kategoriler</p></div>
-        <div class="menuitem"><p class="menuitemmetin">Kategoriler</p></div>
-        <div class="menuitem"><p class="menuitemmetin">Kategoriler</p></div>
+        <nuxt-link :to="'/SutUrunleri/'">
+          <div class="menuitem">
+            <p class="menuitemmetin">Süt & Süt ürünleri</p>
+          </div>
+        </nuxt-link>
+        <div class="menuitem">
+          <p class="menuitemmetin">Et & Tavuk & Şarküteri</p>
+        </div>
+        <div class="menuitem">
+          <p class="menuitemmetin">Meyve & Sebze</p>
+        </div>
+        <div class="menuitem">
+          <p class="menuitemmetin">Kahvaltılık</p>
+        </div>
+        <div class="menuitem">
+          <p class="menuitemmetin">Ekmek & Pastahane</p>
+        </div>
+        <div class="menuitem">
+          <p class="menuitemmetin">İçecek</p>
+        </div>
       </div>
       <div class="search">
         <i class="fas fa-search fa-2x"></i>
-        <input class="searchtype" v-model="search" placeholder="Ör.Yumurta" />
+        <input class="searchtype" placeholder="Ör.Yumurta" />
+        <!--  v-model="search"   arama simgesi-->
       </div>
       <div class="sagtaraf">
         <i class="fas fa-gift fa-2x"></i>
@@ -38,7 +49,9 @@
         <p class="iconmtn1">Üye Ol</p>
         <i class="fas fa-shopping-cart fa-2x"></i>
         <img class="sepet" src="@/images/sepet.png" />
-        <div class="fiyat"><p>₺0,00</p></div>
+        <div class="fiyat">
+          <p>₺0,00</p>
+        </div>
       </div>
     </div>
   </div>
@@ -237,20 +250,19 @@ export default {};
   float: left;
   margin-left: 10px;
   margin-top: 10px;
-  padding: .1rem !important;
-  padding-top: .1rem !important;
+  padding: 0.1rem !important;
+  padding-top: 0.1rem !important;
   font-family: icomoon !important;
-  font-size: 10px  !important;
+  font-size: 10px !important;
   color: white !important;
-  background-color:blue !important;
+  background-color: blue !important;
   height: 20px !important;
   border-radius: 3px;
 }
-.alan-2{
+.alan-2 {
   float: right;
   margin-right: 500px;
-  height: .1rem !important;
-  background-color:#ffe000;
+  height: 0.1rem !important;
+  background-color: #ffe000;
 }
-
 </style>
