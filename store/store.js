@@ -4,7 +4,6 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 export const state = () => ({
-    counter : 0,
     kampanya1: '25 Tl ve üzeri alışverişinize SuperFresh Pizza King 780 gr sadece 12 TL ! Sepetiniz 25tl ve üzeri ise ürünü sepete eklediğinizde indirimli fiyat sepetinize otomatik yansır.',
     kampanya2: ' 25 Tl ve üzeri alışverişinize Lipton Altın Harman Demlik Poşet 100 lü sadece 14 TL ! Sepetiniz 25tl ve üzeri ise ürünü sepete eklediğinizde indirimli fiyat sepetinize',
     kampanya3:'Nescafe Gold 150 gr Nestle Çikolata 60 gr sadece 32,45 TL İkili özel paket!',

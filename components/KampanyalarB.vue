@@ -62,7 +62,7 @@ export default {
 <style scoped>
 .kampanyalar{
   width:1200px;
-  margin-left:150px;
+  margin-left:250px;
   margin-top:30px;
 }
 .kampanya{

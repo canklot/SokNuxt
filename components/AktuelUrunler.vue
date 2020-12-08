@@ -40,7 +40,7 @@ export default {};
 
 .Aktuel {
   background-color: yellow;
-  height: 630px;
+  height: 650px;
   width: 100%;
 }
 .Marka {

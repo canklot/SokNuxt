@@ -4,7 +4,7 @@
     <img class="ucgen" src="../images/ucgen.png" />
     <div class="SilikAdres">Adress Seçin</div>
     <button class="MaviAdres">
-      <p>Adres Seç</p>
+      <p class="AdressSec">Adres Seç</p>
       <p class="ok">&#8250;</p>
     </button>
   
@@ -52,13 +52,18 @@ export default {};
   text-align: center;
   color: rgba(51, 41, 10, 0.5);
   float: left;
+  
 }
 .MaviAdres {
   color: #05519f;
   text-align: center;
-  
+  height: 100%;
   padding-left: 180px;
   float: left;
+}
+.AdressSec{
+  float: left;
+  padding-top: 5px;
 }
 .ok {
   margin-left: 5px;
@@ -74,7 +79,7 @@ export default {};
   border-color: blue;
   display: inline-block;
   text-align: center;
-  float: left;
+  float: right;
 }
 .bisiklet {
   margin-top: 10px;
@@ -115,6 +120,7 @@ float: left;
 .griArkaplan {
   background-color: #f6f6f6;
   float: left;
+  width: 1150px;
   
 }
 </style>

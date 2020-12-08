@@ -2,7 +2,7 @@
   <div class="BunlariKacirma">
     <div class="Baslik">Bunları Kaçırmayın</div>
     <!-- ----------urun----- -->
-    <nuxt-link :to="'/UrunDetay/'+id">
+    <nuxt-link :to="'/UrunDetay/'"> <!-- <nuxt-link :to="'/UrunDetay/'+id"> -->
     <div class="urun">
       <img class="urunResim" src="@/images/lipton.jpg" />
       <div class="indirim">25 TL üzeri indirimli</div>
@@ -89,6 +89,7 @@ a{
 }
 .BunlariKacirma {
   background-color: #f7f3eb;
+  height: 300px;
 }
 .Baslik{
     font-weight: bolder;

@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div id="app">
-      <BannerB msg="BenimParametrem" />
-      <Adres msg="BenimParametrem"/>
-      <AktuelUrunler msg="BenimParametrem" />
-      <BunlariKacirma msg="BenimParametrem"/>
-      <KampanyalarB msg="BenimParametrem"/>
+      <BannerB class="BannerB" />
+      <Adres/>
+      <AktuelUrunler />
+      <BunlariKacirma/>
+      <KampanyalarB class ="KampanyalarB"/>
       <!--  <UrunDetay msg="BenimParametrem"/> -->
       <!-- <PromosyonKoduB msg="BenimParametrem"/> -->
       <!-- <GirisYapB msg="BenimParametrem"/> -->
@@ -45,4 +45,9 @@ export default {
 </script>
 
 <style>
+.KampanyalarB{
+  position: relative;
+  left: 150px;
+}
+
 </style>

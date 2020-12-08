@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="BannerB">
     <div class="alan-2">
       <v-btn class="buton2" depressed>Kurumsal</v-btn>
       <v-btn class="buton2" depressed>Yatırımcı İlişkileri</v-btn>
@@ -38,8 +38,8 @@
       </div>
       <div class="search">
         <i class="fas fa-search fa-2x"></i>
-        <input class="searchtype" placeholder="Ör.Yumurta" />
-        <!--  v-model="search"   arama simgesi-->
+        <input class="searchtype"  placeholder="Ör.Yumurta" />
+        <!-- v-model="search" -->
       </div>
       <div class="sagtaraf">
         <i class="fas fa-gift fa-2x"></i>
@@ -66,6 +66,11 @@ export default {};
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.BannerB{
+  
+}
 .fiyat {
   float: left;
   width: 50px;
@@ -123,14 +128,15 @@ export default {};
 .logo {
   height: 49px;
   width: 54px;
-  margin-left: 80px;
+  margin-left: 300px;
   margin-top: 30px;
   float: left;
 }
 .buton1 {
+  
   width: 230px;
   height: 53px;
-  background-color: blue;
+  background-color: #05519f;
   float: left;
   margin-left: 80px;
   margin-top: 30px;
@@ -238,6 +244,7 @@ export default {};
   height: 52px;
   width: 450px;
   float: left;
+  border: none;
 }
 .hediye {
   float: left;
@@ -256,16 +263,18 @@ export default {};
   margin-top: 10px;
   padding: 0.1rem !important;
   padding-top: 0.1rem !important;
-  font-family: icomoon !important;
-  font-size: 10px !important;
+  font-family: 'Mulish', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: bold;
   color: white !important;
-  background-color: blue !important;
+  background-color: #05519f !important;
   height: 20px !important;
   border-radius: 3px;
 }
 .alan-2 {
   float: right;
-  margin-right: 500px;
+  
+  margin-right: 300px;
   height: 0.1rem !important;
   background-color: #ffe000;
 }
