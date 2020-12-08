@@ -5,7 +5,9 @@
       <v-btn class="buton2" depressed>Yatırımcı İlişkileri</v-btn>
     </div>
     <div class="alan-1">
+      <nuxt-link :to="'/Home/'">
       <img class="logo" src="@/images/soklogo.svg" />
+      </nuxt-link>
       <div class="buton1">
         <img class="ekmeklogo" src="@/images/ekmeklogo.png" />
         <p class="metin1">Kategoriler</p>
@@ -48,7 +50,9 @@
         <p class="iconmtn2">Giriş Yap</p>
         <p class="iconmtn1">Üye Ol</p>
         <i class="fas fa-shopping-cart fa-2x"></i>
+        <nuxt-link :to="'/Sepetim/'">
         <img class="sepet" src="@/images/sepet.png" />
+        </nuxt-link>
         <div class="fiyat">
           <p>₺0,00</p>
         </div>
