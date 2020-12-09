@@ -15,7 +15,7 @@
       <div class="promosyon">Promosyon Kodum Var</div>
     </div>
 
-    <PromosyonKoduB />
+    <PromosyonKoduB class="PromosyonKoduB" />
   </div>
 </template>
 
@@ -38,7 +38,7 @@ export default {
 * {
   font-family: poppins;
 }
-.promosyon:focus ~ .araba {
+.PromosyonKoduB{
   display: none;
 }
 button.link {

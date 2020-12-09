@@ -36,6 +36,7 @@ export default {};
   width: 100%;
   height: 50px;
   background-color: white;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,.05);
 }
 
 .Adres * {
